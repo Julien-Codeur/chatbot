@@ -59,7 +59,12 @@ export default function Chat() {
             };
             setMessages((prev) => [...prev, assistantMessage]);
         } catch (error) {
-            console.error("Error:", error);
+            console.error('Chat error:', error);
+            setMessages(prev => [...prev, {
+                role: 'assistant',
+                content: 'Sorry, there was an error processing your request. Please try again.',
+                timestamp: new Date()
+            }]);
         } finally {
             setIsLoading(false);
         }

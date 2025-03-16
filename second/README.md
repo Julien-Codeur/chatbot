@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chat Assistant
+
+A Next.js-based chat assistant application with real-time responses.
+
+## Features
+- Real-time chat interface
+- Responsive design
+- Dark/Light mode support
+- Message history
+- Feedback system (likes/dislikes)
 
 ## Getting Started
 
